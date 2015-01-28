@@ -2813,6 +2813,2975 @@ public final class AdLogOldOperation {
     // @@protoc_insertion_point(class_scope:sessionlog.AdPVOldInfoList)
   }
 
+  public interface AdCLKOldInfoOrBuilder
+      extends com.google.protobuf.MessageOrBuilder {
+
+    // required string creativeid = 1;
+    /**
+     * <code>required string creativeid = 1;</code>
+     */
+    boolean hasCreativeid();
+    /**
+     * <code>required string creativeid = 1;</code>
+     */
+    java.lang.String getCreativeid();
+    /**
+     * <code>required string creativeid = 1;</code>
+     */
+    com.google.protobuf.ByteString
+        getCreativeidBytes();
+
+    // required string adtype = 2;
+    /**
+     * <code>required string adtype = 2;</code>
+     */
+    boolean hasAdtype();
+    /**
+     * <code>required string adtype = 2;</code>
+     */
+    java.lang.String getAdtype();
+    /**
+     * <code>required string adtype = 2;</code>
+     */
+    com.google.protobuf.ByteString
+        getAdtypeBytes();
+
+    // required string pageid = 3;
+    /**
+     * <code>required string pageid = 3;</code>
+     */
+    boolean hasPageid();
+    /**
+     * <code>required string pageid = 3;</code>
+     */
+    java.lang.String getPageid();
+    /**
+     * <code>required string pageid = 3;</code>
+     */
+    com.google.protobuf.ByteString
+        getPageidBytes();
+
+    // required string psid = 4;
+    /**
+     * <code>required string psid = 4;</code>
+     */
+    boolean hasPsid();
+    /**
+     * <code>required string psid = 4;</code>
+     */
+    java.lang.String getPsid();
+    /**
+     * <code>required string psid = 4;</code>
+     */
+    com.google.protobuf.ByteString
+        getPsidBytes();
+
+    // required string clkip = 5;
+    /**
+     * <code>required string clkip = 5;</code>
+     */
+    boolean hasClkip();
+    /**
+     * <code>required string clkip = 5;</code>
+     */
+    java.lang.String getClkip();
+    /**
+     * <code>required string clkip = 5;</code>
+     */
+    com.google.protobuf.ByteString
+        getClkipBytes();
+
+    // required string regionid = 6;
+    /**
+     * <code>required string regionid = 6;</code>
+     */
+    boolean hasRegionid();
+    /**
+     * <code>required string regionid = 6;</code>
+     */
+    java.lang.String getRegionid();
+    /**
+     * <code>required string regionid = 6;</code>
+     */
+    com.google.protobuf.ByteString
+        getRegionidBytes();
+
+    // required string clktime = 7;
+    /**
+     * <code>required string clktime = 7;</code>
+     */
+    boolean hasClktime();
+    /**
+     * <code>required string clktime = 7;</code>
+     */
+    java.lang.String getClktime();
+    /**
+     * <code>required string clktime = 7;</code>
+     */
+    com.google.protobuf.ByteString
+        getClktimeBytes();
+
+    // required string frame = 8;
+    /**
+     * <code>required string frame = 8;</code>
+     */
+    boolean hasFrame();
+    /**
+     * <code>required string frame = 8;</code>
+     */
+    java.lang.String getFrame();
+    /**
+     * <code>required string frame = 8;</code>
+     */
+    com.google.protobuf.ByteString
+        getFrameBytes();
+
+    // required string referer = 9;
+    /**
+     * <code>required string referer = 9;</code>
+     */
+    boolean hasReferer();
+    /**
+     * <code>required string referer = 9;</code>
+     */
+    java.lang.String getReferer();
+    /**
+     * <code>required string referer = 9;</code>
+     */
+    com.google.protobuf.ByteString
+        getRefererBytes();
+
+    // required string pvid = 10;
+    /**
+     * <code>required string pvid = 10;</code>
+     */
+    boolean hasPvid();
+    /**
+     * <code>required string pvid = 10;</code>
+     */
+    java.lang.String getPvid();
+    /**
+     * <code>required string pvid = 10;</code>
+     */
+    com.google.protobuf.ByteString
+        getPvidBytes();
+
+    // required string cookie = 11;
+    /**
+     * <code>required string cookie = 11;</code>
+     */
+    boolean hasCookie();
+    /**
+     * <code>required string cookie = 11;</code>
+     */
+    java.lang.String getCookie();
+    /**
+     * <code>required string cookie = 11;</code>
+     */
+    com.google.protobuf.ByteString
+        getCookieBytes();
+
+    // required string freqid = 12;
+    /**
+     * <code>required string freqid = 12;</code>
+     */
+    boolean hasFreqid();
+    /**
+     * <code>required string freqid = 12;</code>
+     */
+    java.lang.String getFreqid();
+    /**
+     * <code>required string freqid = 12;</code>
+     */
+    com.google.protobuf.ByteString
+        getFreqidBytes();
+  }
+  /**
+   * Protobuf type {@code sessionlog.AdCLKOldInfo}
+   */
+  public static final class AdCLKOldInfo extends
+      com.google.protobuf.GeneratedMessage
+      implements AdCLKOldInfoOrBuilder {
+    // Use AdCLKOldInfo.newBuilder() to construct.
+    private AdCLKOldInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private AdCLKOldInfo(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final AdCLKOldInfo defaultInstance;
+    public static AdCLKOldInfo getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public AdCLKOldInfo getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private AdCLKOldInfo(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              bitField0_ |= 0x00000001;
+              creativeid_ = input.readBytes();
+              break;
+            }
+            case 18: {
+              bitField0_ |= 0x00000002;
+              adtype_ = input.readBytes();
+              break;
+            }
+            case 26: {
+              bitField0_ |= 0x00000004;
+              pageid_ = input.readBytes();
+              break;
+            }
+            case 34: {
+              bitField0_ |= 0x00000008;
+              psid_ = input.readBytes();
+              break;
+            }
+            case 42: {
+              bitField0_ |= 0x00000010;
+              clkip_ = input.readBytes();
+              break;
+            }
+            case 50: {
+              bitField0_ |= 0x00000020;
+              regionid_ = input.readBytes();
+              break;
+            }
+            case 58: {
+              bitField0_ |= 0x00000040;
+              clktime_ = input.readBytes();
+              break;
+            }
+            case 66: {
+              bitField0_ |= 0x00000080;
+              frame_ = input.readBytes();
+              break;
+            }
+            case 74: {
+              bitField0_ |= 0x00000100;
+              referer_ = input.readBytes();
+              break;
+            }
+            case 82: {
+              bitField0_ |= 0x00000200;
+              pvid_ = input.readBytes();
+              break;
+            }
+            case 90: {
+              bitField0_ |= 0x00000400;
+              cookie_ = input.readBytes();
+              break;
+            }
+            case 98: {
+              bitField0_ |= 0x00000800;
+              freqid_ = input.readBytes();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfo_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfo_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.class, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<AdCLKOldInfo> PARSER =
+        new com.google.protobuf.AbstractParser<AdCLKOldInfo>() {
+      public AdCLKOldInfo parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new AdCLKOldInfo(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<AdCLKOldInfo> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    // required string creativeid = 1;
+    public static final int CREATIVEID_FIELD_NUMBER = 1;
+    private java.lang.Object creativeid_;
+    /**
+     * <code>required string creativeid = 1;</code>
+     */
+    public boolean hasCreativeid() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required string creativeid = 1;</code>
+     */
+    public java.lang.String getCreativeid() {
+      java.lang.Object ref = creativeid_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          creativeid_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string creativeid = 1;</code>
+     */
+    public com.google.protobuf.ByteString
+        getCreativeidBytes() {
+      java.lang.Object ref = creativeid_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        creativeid_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string adtype = 2;
+    public static final int ADTYPE_FIELD_NUMBER = 2;
+    private java.lang.Object adtype_;
+    /**
+     * <code>required string adtype = 2;</code>
+     */
+    public boolean hasAdtype() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>required string adtype = 2;</code>
+     */
+    public java.lang.String getAdtype() {
+      java.lang.Object ref = adtype_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          adtype_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string adtype = 2;</code>
+     */
+    public com.google.protobuf.ByteString
+        getAdtypeBytes() {
+      java.lang.Object ref = adtype_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        adtype_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string pageid = 3;
+    public static final int PAGEID_FIELD_NUMBER = 3;
+    private java.lang.Object pageid_;
+    /**
+     * <code>required string pageid = 3;</code>
+     */
+    public boolean hasPageid() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>required string pageid = 3;</code>
+     */
+    public java.lang.String getPageid() {
+      java.lang.Object ref = pageid_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          pageid_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string pageid = 3;</code>
+     */
+    public com.google.protobuf.ByteString
+        getPageidBytes() {
+      java.lang.Object ref = pageid_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        pageid_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string psid = 4;
+    public static final int PSID_FIELD_NUMBER = 4;
+    private java.lang.Object psid_;
+    /**
+     * <code>required string psid = 4;</code>
+     */
+    public boolean hasPsid() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>required string psid = 4;</code>
+     */
+    public java.lang.String getPsid() {
+      java.lang.Object ref = psid_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          psid_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string psid = 4;</code>
+     */
+    public com.google.protobuf.ByteString
+        getPsidBytes() {
+      java.lang.Object ref = psid_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        psid_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string clkip = 5;
+    public static final int CLKIP_FIELD_NUMBER = 5;
+    private java.lang.Object clkip_;
+    /**
+     * <code>required string clkip = 5;</code>
+     */
+    public boolean hasClkip() {
+      return ((bitField0_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>required string clkip = 5;</code>
+     */
+    public java.lang.String getClkip() {
+      java.lang.Object ref = clkip_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          clkip_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string clkip = 5;</code>
+     */
+    public com.google.protobuf.ByteString
+        getClkipBytes() {
+      java.lang.Object ref = clkip_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        clkip_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string regionid = 6;
+    public static final int REGIONID_FIELD_NUMBER = 6;
+    private java.lang.Object regionid_;
+    /**
+     * <code>required string regionid = 6;</code>
+     */
+    public boolean hasRegionid() {
+      return ((bitField0_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>required string regionid = 6;</code>
+     */
+    public java.lang.String getRegionid() {
+      java.lang.Object ref = regionid_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          regionid_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string regionid = 6;</code>
+     */
+    public com.google.protobuf.ByteString
+        getRegionidBytes() {
+      java.lang.Object ref = regionid_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        regionid_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string clktime = 7;
+    public static final int CLKTIME_FIELD_NUMBER = 7;
+    private java.lang.Object clktime_;
+    /**
+     * <code>required string clktime = 7;</code>
+     */
+    public boolean hasClktime() {
+      return ((bitField0_ & 0x00000040) == 0x00000040);
+    }
+    /**
+     * <code>required string clktime = 7;</code>
+     */
+    public java.lang.String getClktime() {
+      java.lang.Object ref = clktime_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          clktime_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string clktime = 7;</code>
+     */
+    public com.google.protobuf.ByteString
+        getClktimeBytes() {
+      java.lang.Object ref = clktime_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        clktime_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string frame = 8;
+    public static final int FRAME_FIELD_NUMBER = 8;
+    private java.lang.Object frame_;
+    /**
+     * <code>required string frame = 8;</code>
+     */
+    public boolean hasFrame() {
+      return ((bitField0_ & 0x00000080) == 0x00000080);
+    }
+    /**
+     * <code>required string frame = 8;</code>
+     */
+    public java.lang.String getFrame() {
+      java.lang.Object ref = frame_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          frame_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string frame = 8;</code>
+     */
+    public com.google.protobuf.ByteString
+        getFrameBytes() {
+      java.lang.Object ref = frame_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        frame_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string referer = 9;
+    public static final int REFERER_FIELD_NUMBER = 9;
+    private java.lang.Object referer_;
+    /**
+     * <code>required string referer = 9;</code>
+     */
+    public boolean hasReferer() {
+      return ((bitField0_ & 0x00000100) == 0x00000100);
+    }
+    /**
+     * <code>required string referer = 9;</code>
+     */
+    public java.lang.String getReferer() {
+      java.lang.Object ref = referer_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          referer_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string referer = 9;</code>
+     */
+    public com.google.protobuf.ByteString
+        getRefererBytes() {
+      java.lang.Object ref = referer_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        referer_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string pvid = 10;
+    public static final int PVID_FIELD_NUMBER = 10;
+    private java.lang.Object pvid_;
+    /**
+     * <code>required string pvid = 10;</code>
+     */
+    public boolean hasPvid() {
+      return ((bitField0_ & 0x00000200) == 0x00000200);
+    }
+    /**
+     * <code>required string pvid = 10;</code>
+     */
+    public java.lang.String getPvid() {
+      java.lang.Object ref = pvid_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          pvid_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string pvid = 10;</code>
+     */
+    public com.google.protobuf.ByteString
+        getPvidBytes() {
+      java.lang.Object ref = pvid_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        pvid_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string cookie = 11;
+    public static final int COOKIE_FIELD_NUMBER = 11;
+    private java.lang.Object cookie_;
+    /**
+     * <code>required string cookie = 11;</code>
+     */
+    public boolean hasCookie() {
+      return ((bitField0_ & 0x00000400) == 0x00000400);
+    }
+    /**
+     * <code>required string cookie = 11;</code>
+     */
+    public java.lang.String getCookie() {
+      java.lang.Object ref = cookie_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          cookie_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string cookie = 11;</code>
+     */
+    public com.google.protobuf.ByteString
+        getCookieBytes() {
+      java.lang.Object ref = cookie_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        cookie_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    // required string freqid = 12;
+    public static final int FREQID_FIELD_NUMBER = 12;
+    private java.lang.Object freqid_;
+    /**
+     * <code>required string freqid = 12;</code>
+     */
+    public boolean hasFreqid() {
+      return ((bitField0_ & 0x00000800) == 0x00000800);
+    }
+    /**
+     * <code>required string freqid = 12;</code>
+     */
+    public java.lang.String getFreqid() {
+      java.lang.Object ref = freqid_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          freqid_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string freqid = 12;</code>
+     */
+    public com.google.protobuf.ByteString
+        getFreqidBytes() {
+      java.lang.Object ref = freqid_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        freqid_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private void initFields() {
+      creativeid_ = "";
+      adtype_ = "";
+      pageid_ = "";
+      psid_ = "";
+      clkip_ = "";
+      regionid_ = "";
+      clktime_ = "";
+      frame_ = "";
+      referer_ = "";
+      pvid_ = "";
+      cookie_ = "";
+      freqid_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized != -1) return isInitialized == 1;
+
+      if (!hasCreativeid()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasAdtype()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasPageid()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasPsid()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasClkip()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasRegionid()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasClktime()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasFrame()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasReferer()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasPvid()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasCookie()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasFreqid()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getCreativeidBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeBytes(2, getAdtypeBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeBytes(3, getPageidBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeBytes(4, getPsidBytes());
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        output.writeBytes(5, getClkipBytes());
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        output.writeBytes(6, getRegionidBytes());
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        output.writeBytes(7, getClktimeBytes());
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        output.writeBytes(8, getFrameBytes());
+      }
+      if (((bitField0_ & 0x00000100) == 0x00000100)) {
+        output.writeBytes(9, getRefererBytes());
+      }
+      if (((bitField0_ & 0x00000200) == 0x00000200)) {
+        output.writeBytes(10, getPvidBytes());
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        output.writeBytes(11, getCookieBytes());
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        output.writeBytes(12, getFreqidBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getCreativeidBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, getAdtypeBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(3, getPageidBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(4, getPsidBytes());
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(5, getClkipBytes());
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(6, getRegionidBytes());
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(7, getClktimeBytes());
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(8, getFrameBytes());
+      }
+      if (((bitField0_ & 0x00000100) == 0x00000100)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(9, getRefererBytes());
+      }
+      if (((bitField0_ & 0x00000200) == 0x00000200)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(10, getPvidBytes());
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(11, getCookieBytes());
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(12, getFreqidBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code sessionlog.AdCLKOldInfo}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder>
+       implements com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfo_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfo_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.class, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder.class);
+      }
+
+      // Construct using com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        creativeid_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        adtype_ = "";
+        bitField0_ = (bitField0_ & ~0x00000002);
+        pageid_ = "";
+        bitField0_ = (bitField0_ & ~0x00000004);
+        psid_ = "";
+        bitField0_ = (bitField0_ & ~0x00000008);
+        clkip_ = "";
+        bitField0_ = (bitField0_ & ~0x00000010);
+        regionid_ = "";
+        bitField0_ = (bitField0_ & ~0x00000020);
+        clktime_ = "";
+        bitField0_ = (bitField0_ & ~0x00000040);
+        frame_ = "";
+        bitField0_ = (bitField0_ & ~0x00000080);
+        referer_ = "";
+        bitField0_ = (bitField0_ & ~0x00000100);
+        pvid_ = "";
+        bitField0_ = (bitField0_ & ~0x00000200);
+        cookie_ = "";
+        bitField0_ = (bitField0_ & ~0x00000400);
+        freqid_ = "";
+        bitField0_ = (bitField0_ & ~0x00000800);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfo_descriptor;
+      }
+
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo getDefaultInstanceForType() {
+        return com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.getDefaultInstance();
+      }
+
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo build() {
+        com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo buildPartial() {
+        com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo result = new com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.creativeid_ = creativeid_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.adtype_ = adtype_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.pageid_ = pageid_;
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.psid_ = psid_;
+        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
+          to_bitField0_ |= 0x00000010;
+        }
+        result.clkip_ = clkip_;
+        if (((from_bitField0_ & 0x00000020) == 0x00000020)) {
+          to_bitField0_ |= 0x00000020;
+        }
+        result.regionid_ = regionid_;
+        if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
+          to_bitField0_ |= 0x00000040;
+        }
+        result.clktime_ = clktime_;
+        if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
+          to_bitField0_ |= 0x00000080;
+        }
+        result.frame_ = frame_;
+        if (((from_bitField0_ & 0x00000100) == 0x00000100)) {
+          to_bitField0_ |= 0x00000100;
+        }
+        result.referer_ = referer_;
+        if (((from_bitField0_ & 0x00000200) == 0x00000200)) {
+          to_bitField0_ |= 0x00000200;
+        }
+        result.pvid_ = pvid_;
+        if (((from_bitField0_ & 0x00000400) == 0x00000400)) {
+          to_bitField0_ |= 0x00000400;
+        }
+        result.cookie_ = cookie_;
+        if (((from_bitField0_ & 0x00000800) == 0x00000800)) {
+          to_bitField0_ |= 0x00000800;
+        }
+        result.freqid_ = freqid_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo) {
+          return mergeFrom((com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo other) {
+        if (other == com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.getDefaultInstance()) return this;
+        if (other.hasCreativeid()) {
+          bitField0_ |= 0x00000001;
+          creativeid_ = other.creativeid_;
+          onChanged();
+        }
+        if (other.hasAdtype()) {
+          bitField0_ |= 0x00000002;
+          adtype_ = other.adtype_;
+          onChanged();
+        }
+        if (other.hasPageid()) {
+          bitField0_ |= 0x00000004;
+          pageid_ = other.pageid_;
+          onChanged();
+        }
+        if (other.hasPsid()) {
+          bitField0_ |= 0x00000008;
+          psid_ = other.psid_;
+          onChanged();
+        }
+        if (other.hasClkip()) {
+          bitField0_ |= 0x00000010;
+          clkip_ = other.clkip_;
+          onChanged();
+        }
+        if (other.hasRegionid()) {
+          bitField0_ |= 0x00000020;
+          regionid_ = other.regionid_;
+          onChanged();
+        }
+        if (other.hasClktime()) {
+          bitField0_ |= 0x00000040;
+          clktime_ = other.clktime_;
+          onChanged();
+        }
+        if (other.hasFrame()) {
+          bitField0_ |= 0x00000080;
+          frame_ = other.frame_;
+          onChanged();
+        }
+        if (other.hasReferer()) {
+          bitField0_ |= 0x00000100;
+          referer_ = other.referer_;
+          onChanged();
+        }
+        if (other.hasPvid()) {
+          bitField0_ |= 0x00000200;
+          pvid_ = other.pvid_;
+          onChanged();
+        }
+        if (other.hasCookie()) {
+          bitField0_ |= 0x00000400;
+          cookie_ = other.cookie_;
+          onChanged();
+        }
+        if (other.hasFreqid()) {
+          bitField0_ |= 0x00000800;
+          freqid_ = other.freqid_;
+          onChanged();
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasCreativeid()) {
+          
+          return false;
+        }
+        if (!hasAdtype()) {
+          
+          return false;
+        }
+        if (!hasPageid()) {
+          
+          return false;
+        }
+        if (!hasPsid()) {
+          
+          return false;
+        }
+        if (!hasClkip()) {
+          
+          return false;
+        }
+        if (!hasRegionid()) {
+          
+          return false;
+        }
+        if (!hasClktime()) {
+          
+          return false;
+        }
+        if (!hasFrame()) {
+          
+          return false;
+        }
+        if (!hasReferer()) {
+          
+          return false;
+        }
+        if (!hasPvid()) {
+          
+          return false;
+        }
+        if (!hasCookie()) {
+          
+          return false;
+        }
+        if (!hasFreqid()) {
+          
+          return false;
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      // required string creativeid = 1;
+      private java.lang.Object creativeid_ = "";
+      /**
+       * <code>required string creativeid = 1;</code>
+       */
+      public boolean hasCreativeid() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required string creativeid = 1;</code>
+       */
+      public java.lang.String getCreativeid() {
+        java.lang.Object ref = creativeid_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          creativeid_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string creativeid = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getCreativeidBytes() {
+        java.lang.Object ref = creativeid_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          creativeid_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string creativeid = 1;</code>
+       */
+      public Builder setCreativeid(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        creativeid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string creativeid = 1;</code>
+       */
+      public Builder clearCreativeid() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        creativeid_ = getDefaultInstance().getCreativeid();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string creativeid = 1;</code>
+       */
+      public Builder setCreativeidBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        creativeid_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string adtype = 2;
+      private java.lang.Object adtype_ = "";
+      /**
+       * <code>required string adtype = 2;</code>
+       */
+      public boolean hasAdtype() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>required string adtype = 2;</code>
+       */
+      public java.lang.String getAdtype() {
+        java.lang.Object ref = adtype_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          adtype_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string adtype = 2;</code>
+       */
+      public com.google.protobuf.ByteString
+          getAdtypeBytes() {
+        java.lang.Object ref = adtype_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          adtype_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string adtype = 2;</code>
+       */
+      public Builder setAdtype(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        adtype_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string adtype = 2;</code>
+       */
+      public Builder clearAdtype() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        adtype_ = getDefaultInstance().getAdtype();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string adtype = 2;</code>
+       */
+      public Builder setAdtypeBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        adtype_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string pageid = 3;
+      private java.lang.Object pageid_ = "";
+      /**
+       * <code>required string pageid = 3;</code>
+       */
+      public boolean hasPageid() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>required string pageid = 3;</code>
+       */
+      public java.lang.String getPageid() {
+        java.lang.Object ref = pageid_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          pageid_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string pageid = 3;</code>
+       */
+      public com.google.protobuf.ByteString
+          getPageidBytes() {
+        java.lang.Object ref = pageid_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          pageid_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string pageid = 3;</code>
+       */
+      public Builder setPageid(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        pageid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string pageid = 3;</code>
+       */
+      public Builder clearPageid() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        pageid_ = getDefaultInstance().getPageid();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string pageid = 3;</code>
+       */
+      public Builder setPageidBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        pageid_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string psid = 4;
+      private java.lang.Object psid_ = "";
+      /**
+       * <code>required string psid = 4;</code>
+       */
+      public boolean hasPsid() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>required string psid = 4;</code>
+       */
+      public java.lang.String getPsid() {
+        java.lang.Object ref = psid_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          psid_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string psid = 4;</code>
+       */
+      public com.google.protobuf.ByteString
+          getPsidBytes() {
+        java.lang.Object ref = psid_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          psid_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string psid = 4;</code>
+       */
+      public Builder setPsid(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        psid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string psid = 4;</code>
+       */
+      public Builder clearPsid() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        psid_ = getDefaultInstance().getPsid();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string psid = 4;</code>
+       */
+      public Builder setPsidBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        psid_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string clkip = 5;
+      private java.lang.Object clkip_ = "";
+      /**
+       * <code>required string clkip = 5;</code>
+       */
+      public boolean hasClkip() {
+        return ((bitField0_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>required string clkip = 5;</code>
+       */
+      public java.lang.String getClkip() {
+        java.lang.Object ref = clkip_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          clkip_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string clkip = 5;</code>
+       */
+      public com.google.protobuf.ByteString
+          getClkipBytes() {
+        java.lang.Object ref = clkip_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          clkip_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string clkip = 5;</code>
+       */
+      public Builder setClkip(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000010;
+        clkip_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string clkip = 5;</code>
+       */
+      public Builder clearClkip() {
+        bitField0_ = (bitField0_ & ~0x00000010);
+        clkip_ = getDefaultInstance().getClkip();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string clkip = 5;</code>
+       */
+      public Builder setClkipBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000010;
+        clkip_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string regionid = 6;
+      private java.lang.Object regionid_ = "";
+      /**
+       * <code>required string regionid = 6;</code>
+       */
+      public boolean hasRegionid() {
+        return ((bitField0_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>required string regionid = 6;</code>
+       */
+      public java.lang.String getRegionid() {
+        java.lang.Object ref = regionid_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          regionid_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string regionid = 6;</code>
+       */
+      public com.google.protobuf.ByteString
+          getRegionidBytes() {
+        java.lang.Object ref = regionid_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          regionid_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string regionid = 6;</code>
+       */
+      public Builder setRegionid(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000020;
+        regionid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string regionid = 6;</code>
+       */
+      public Builder clearRegionid() {
+        bitField0_ = (bitField0_ & ~0x00000020);
+        regionid_ = getDefaultInstance().getRegionid();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string regionid = 6;</code>
+       */
+      public Builder setRegionidBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000020;
+        regionid_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string clktime = 7;
+      private java.lang.Object clktime_ = "";
+      /**
+       * <code>required string clktime = 7;</code>
+       */
+      public boolean hasClktime() {
+        return ((bitField0_ & 0x00000040) == 0x00000040);
+      }
+      /**
+       * <code>required string clktime = 7;</code>
+       */
+      public java.lang.String getClktime() {
+        java.lang.Object ref = clktime_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          clktime_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string clktime = 7;</code>
+       */
+      public com.google.protobuf.ByteString
+          getClktimeBytes() {
+        java.lang.Object ref = clktime_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          clktime_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string clktime = 7;</code>
+       */
+      public Builder setClktime(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000040;
+        clktime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string clktime = 7;</code>
+       */
+      public Builder clearClktime() {
+        bitField0_ = (bitField0_ & ~0x00000040);
+        clktime_ = getDefaultInstance().getClktime();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string clktime = 7;</code>
+       */
+      public Builder setClktimeBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000040;
+        clktime_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string frame = 8;
+      private java.lang.Object frame_ = "";
+      /**
+       * <code>required string frame = 8;</code>
+       */
+      public boolean hasFrame() {
+        return ((bitField0_ & 0x00000080) == 0x00000080);
+      }
+      /**
+       * <code>required string frame = 8;</code>
+       */
+      public java.lang.String getFrame() {
+        java.lang.Object ref = frame_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          frame_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string frame = 8;</code>
+       */
+      public com.google.protobuf.ByteString
+          getFrameBytes() {
+        java.lang.Object ref = frame_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          frame_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string frame = 8;</code>
+       */
+      public Builder setFrame(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000080;
+        frame_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string frame = 8;</code>
+       */
+      public Builder clearFrame() {
+        bitField0_ = (bitField0_ & ~0x00000080);
+        frame_ = getDefaultInstance().getFrame();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string frame = 8;</code>
+       */
+      public Builder setFrameBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000080;
+        frame_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string referer = 9;
+      private java.lang.Object referer_ = "";
+      /**
+       * <code>required string referer = 9;</code>
+       */
+      public boolean hasReferer() {
+        return ((bitField0_ & 0x00000100) == 0x00000100);
+      }
+      /**
+       * <code>required string referer = 9;</code>
+       */
+      public java.lang.String getReferer() {
+        java.lang.Object ref = referer_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          referer_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string referer = 9;</code>
+       */
+      public com.google.protobuf.ByteString
+          getRefererBytes() {
+        java.lang.Object ref = referer_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          referer_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string referer = 9;</code>
+       */
+      public Builder setReferer(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000100;
+        referer_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string referer = 9;</code>
+       */
+      public Builder clearReferer() {
+        bitField0_ = (bitField0_ & ~0x00000100);
+        referer_ = getDefaultInstance().getReferer();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string referer = 9;</code>
+       */
+      public Builder setRefererBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000100;
+        referer_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string pvid = 10;
+      private java.lang.Object pvid_ = "";
+      /**
+       * <code>required string pvid = 10;</code>
+       */
+      public boolean hasPvid() {
+        return ((bitField0_ & 0x00000200) == 0x00000200);
+      }
+      /**
+       * <code>required string pvid = 10;</code>
+       */
+      public java.lang.String getPvid() {
+        java.lang.Object ref = pvid_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          pvid_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string pvid = 10;</code>
+       */
+      public com.google.protobuf.ByteString
+          getPvidBytes() {
+        java.lang.Object ref = pvid_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          pvid_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string pvid = 10;</code>
+       */
+      public Builder setPvid(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000200;
+        pvid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string pvid = 10;</code>
+       */
+      public Builder clearPvid() {
+        bitField0_ = (bitField0_ & ~0x00000200);
+        pvid_ = getDefaultInstance().getPvid();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string pvid = 10;</code>
+       */
+      public Builder setPvidBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000200;
+        pvid_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string cookie = 11;
+      private java.lang.Object cookie_ = "";
+      /**
+       * <code>required string cookie = 11;</code>
+       */
+      public boolean hasCookie() {
+        return ((bitField0_ & 0x00000400) == 0x00000400);
+      }
+      /**
+       * <code>required string cookie = 11;</code>
+       */
+      public java.lang.String getCookie() {
+        java.lang.Object ref = cookie_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          cookie_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string cookie = 11;</code>
+       */
+      public com.google.protobuf.ByteString
+          getCookieBytes() {
+        java.lang.Object ref = cookie_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          cookie_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string cookie = 11;</code>
+       */
+      public Builder setCookie(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000400;
+        cookie_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string cookie = 11;</code>
+       */
+      public Builder clearCookie() {
+        bitField0_ = (bitField0_ & ~0x00000400);
+        cookie_ = getDefaultInstance().getCookie();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string cookie = 11;</code>
+       */
+      public Builder setCookieBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000400;
+        cookie_ = value;
+        onChanged();
+        return this;
+      }
+
+      // required string freqid = 12;
+      private java.lang.Object freqid_ = "";
+      /**
+       * <code>required string freqid = 12;</code>
+       */
+      public boolean hasFreqid() {
+        return ((bitField0_ & 0x00000800) == 0x00000800);
+      }
+      /**
+       * <code>required string freqid = 12;</code>
+       */
+      public java.lang.String getFreqid() {
+        java.lang.Object ref = freqid_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          freqid_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string freqid = 12;</code>
+       */
+      public com.google.protobuf.ByteString
+          getFreqidBytes() {
+        java.lang.Object ref = freqid_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          freqid_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string freqid = 12;</code>
+       */
+      public Builder setFreqid(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000800;
+        freqid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string freqid = 12;</code>
+       */
+      public Builder clearFreqid() {
+        bitField0_ = (bitField0_ & ~0x00000800);
+        freqid_ = getDefaultInstance().getFreqid();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string freqid = 12;</code>
+       */
+      public Builder setFreqidBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000800;
+        freqid_ = value;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:sessionlog.AdCLKOldInfo)
+    }
+
+    static {
+      defaultInstance = new AdCLKOldInfo(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:sessionlog.AdCLKOldInfo)
+  }
+
+  public interface AdCLKOldInfoListOrBuilder
+      extends com.google.protobuf.MessageOrBuilder {
+
+    // repeated .sessionlog.AdCLKOldInfo clk = 1;
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    java.util.List<com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo> 
+        getClkList();
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo getClk(int index);
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    int getClkCount();
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    java.util.List<? extends com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder> 
+        getClkOrBuilderList();
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder getClkOrBuilder(
+        int index);
+  }
+  /**
+   * Protobuf type {@code sessionlog.AdCLKOldInfoList}
+   */
+  public static final class AdCLKOldInfoList extends
+      com.google.protobuf.GeneratedMessage
+      implements AdCLKOldInfoListOrBuilder {
+    // Use AdCLKOldInfoList.newBuilder() to construct.
+    private AdCLKOldInfoList(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private AdCLKOldInfoList(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final AdCLKOldInfoList defaultInstance;
+    public static AdCLKOldInfoList getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public AdCLKOldInfoList getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private AdCLKOldInfoList(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
+                clk_ = new java.util.ArrayList<com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              clk_.add(input.readMessage(com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.PARSER, extensionRegistry));
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
+          clk_ = java.util.Collections.unmodifiableList(clk_);
+        }
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfoList_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfoList_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList.class, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<AdCLKOldInfoList> PARSER =
+        new com.google.protobuf.AbstractParser<AdCLKOldInfoList>() {
+      public AdCLKOldInfoList parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new AdCLKOldInfoList(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<AdCLKOldInfoList> getParserForType() {
+      return PARSER;
+    }
+
+    // repeated .sessionlog.AdCLKOldInfo clk = 1;
+    public static final int CLK_FIELD_NUMBER = 1;
+    private java.util.List<com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo> clk_;
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    public java.util.List<com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo> getClkList() {
+      return clk_;
+    }
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    public java.util.List<? extends com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder> 
+        getClkOrBuilderList() {
+      return clk_;
+    }
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    public int getClkCount() {
+      return clk_.size();
+    }
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo getClk(int index) {
+      return clk_.get(index);
+    }
+    /**
+     * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+     */
+    public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder getClkOrBuilder(
+        int index) {
+      return clk_.get(index);
+    }
+
+    private void initFields() {
+      clk_ = java.util.Collections.emptyList();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized != -1) return isInitialized == 1;
+
+      for (int i = 0; i < getClkCount(); i++) {
+        if (!getClk(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      for (int i = 0; i < clk_.size(); i++) {
+        output.writeMessage(1, clk_.get(i));
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      for (int i = 0; i < clk_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, clk_.get(i));
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code sessionlog.AdCLKOldInfoList}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder>
+       implements com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoListOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfoList_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfoList_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList.class, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList.Builder.class);
+      }
+
+      // Construct using com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getClkFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        if (clkBuilder_ == null) {
+          clk_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          clkBuilder_.clear();
+        }
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.autohome.adrd.algo.protobuf.AdLogOldOperation.internal_static_sessionlog_AdCLKOldInfoList_descriptor;
+      }
+
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList getDefaultInstanceForType() {
+        return com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList.getDefaultInstance();
+      }
+
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList build() {
+        com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList buildPartial() {
+        com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList result = new com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList(this);
+        int from_bitField0_ = bitField0_;
+        if (clkBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
+            clk_ = java.util.Collections.unmodifiableList(clk_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.clk_ = clk_;
+        } else {
+          result.clk_ = clkBuilder_.build();
+        }
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList) {
+          return mergeFrom((com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList other) {
+        if (other == com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList.getDefaultInstance()) return this;
+        if (clkBuilder_ == null) {
+          if (!other.clk_.isEmpty()) {
+            if (clk_.isEmpty()) {
+              clk_ = other.clk_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureClkIsMutable();
+              clk_.addAll(other.clk_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.clk_.isEmpty()) {
+            if (clkBuilder_.isEmpty()) {
+              clkBuilder_.dispose();
+              clkBuilder_ = null;
+              clk_ = other.clk_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              clkBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getClkFieldBuilder() : null;
+            } else {
+              clkBuilder_.addAllMessages(other.clk_);
+            }
+          }
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        for (int i = 0; i < getClkCount(); i++) {
+          if (!getClk(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoList) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      // repeated .sessionlog.AdCLKOldInfo clk = 1;
+      private java.util.List<com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo> clk_ =
+        java.util.Collections.emptyList();
+      private void ensureClkIsMutable() {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
+          clk_ = new java.util.ArrayList<com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo>(clk_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder> clkBuilder_;
+
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public java.util.List<com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo> getClkList() {
+        if (clkBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(clk_);
+        } else {
+          return clkBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public int getClkCount() {
+        if (clkBuilder_ == null) {
+          return clk_.size();
+        } else {
+          return clkBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo getClk(int index) {
+        if (clkBuilder_ == null) {
+          return clk_.get(index);
+        } else {
+          return clkBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder setClk(
+          int index, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo value) {
+        if (clkBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureClkIsMutable();
+          clk_.set(index, value);
+          onChanged();
+        } else {
+          clkBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder setClk(
+          int index, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder builderForValue) {
+        if (clkBuilder_ == null) {
+          ensureClkIsMutable();
+          clk_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          clkBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder addClk(com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo value) {
+        if (clkBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureClkIsMutable();
+          clk_.add(value);
+          onChanged();
+        } else {
+          clkBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder addClk(
+          int index, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo value) {
+        if (clkBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureClkIsMutable();
+          clk_.add(index, value);
+          onChanged();
+        } else {
+          clkBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder addClk(
+          com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder builderForValue) {
+        if (clkBuilder_ == null) {
+          ensureClkIsMutable();
+          clk_.add(builderForValue.build());
+          onChanged();
+        } else {
+          clkBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder addClk(
+          int index, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder builderForValue) {
+        if (clkBuilder_ == null) {
+          ensureClkIsMutable();
+          clk_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          clkBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder addAllClk(
+          java.lang.Iterable<? extends com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo> values) {
+        if (clkBuilder_ == null) {
+          ensureClkIsMutable();
+          super.addAll(values, clk_);
+          onChanged();
+        } else {
+          clkBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder clearClk() {
+        if (clkBuilder_ == null) {
+          clk_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          clkBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public Builder removeClk(int index) {
+        if (clkBuilder_ == null) {
+          ensureClkIsMutable();
+          clk_.remove(index);
+          onChanged();
+        } else {
+          clkBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder getClkBuilder(
+          int index) {
+        return getClkFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder getClkOrBuilder(
+          int index) {
+        if (clkBuilder_ == null) {
+          return clk_.get(index);  } else {
+          return clkBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public java.util.List<? extends com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder> 
+           getClkOrBuilderList() {
+        if (clkBuilder_ != null) {
+          return clkBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(clk_);
+        }
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder addClkBuilder() {
+        return getClkFieldBuilder().addBuilder(
+            com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder addClkBuilder(
+          int index) {
+        return getClkFieldBuilder().addBuilder(
+            index, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .sessionlog.AdCLKOldInfo clk = 1;</code>
+       */
+      public java.util.List<com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder> 
+           getClkBuilderList() {
+        return getClkFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder> 
+          getClkFieldBuilder() {
+        if (clkBuilder_ == null) {
+          clkBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfo.Builder, com.autohome.adrd.algo.protobuf.AdLogOldOperation.AdCLKOldInfoOrBuilder>(
+                  clk_,
+                  ((bitField0_ & 0x00000001) == 0x00000001),
+                  getParentForChildren(),
+                  isClean());
+          clk_ = null;
+        }
+        return clkBuilder_;
+      }
+
+      // @@protoc_insertion_point(builder_scope:sessionlog.AdCLKOldInfoList)
+    }
+
+    static {
+      defaultInstance = new AdCLKOldInfoList(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:sessionlog.AdCLKOldInfoList)
+  }
+
   private static com.google.protobuf.Descriptors.Descriptor
     internal_static_sessionlog_AdPVOldInfo_descriptor;
   private static
@@ -2823,6 +5792,16 @@ public final class AdLogOldOperation {
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_sessionlog_AdPVOldInfoList_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_sessionlog_AdCLKOldInfo_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_sessionlog_AdCLKOldInfo_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_sessionlog_AdCLKOldInfoList_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_sessionlog_AdCLKOldInfoList_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -2838,9 +5817,15 @@ public final class AdLogOldOperation {
       "\002(\t\022\020\n\010regionid\030\006 \002(\t\022\r\n\005vtime\030\007 \002(\t\022\r\n\005" +
       "carid\030\010 \002(\t\022\014\n\004pvid\030\t \002(\t\022\016\n\006cookie\030\n \002(" +
       "\t\022\r\n\005reqid\030\013 \002(\t\"6\n\017AdPVOldInfoList\022#\n\002p" +
-      "v\030\001 \003(\0132\027.sessionlog.AdPVOldInfoB4\n\037com." +
-      "autohome.adrd.algo.protobufB\021AdLogOldOpe" +
-      "ration"
+      "v\030\001 \003(\0132\027.sessionlog.AdPVOldInfo\"\320\001\n\014AdC" +
+      "LKOldInfo\022\022\n\ncreativeid\030\001 \002(\t\022\016\n\006adtype\030" +
+      "\002 \002(\t\022\016\n\006pageid\030\003 \002(\t\022\014\n\004psid\030\004 \002(\t\022\r\n\005c" +
+      "lkip\030\005 \002(\t\022\020\n\010regionid\030\006 \002(\t\022\017\n\007clktime\030",
+      "\007 \002(\t\022\r\n\005frame\030\010 \002(\t\022\017\n\007referer\030\t \002(\t\022\014\n" +
+      "\004pvid\030\n \002(\t\022\016\n\006cookie\030\013 \002(\t\022\016\n\006freqid\030\014 " +
+      "\002(\t\"9\n\020AdCLKOldInfoList\022%\n\003clk\030\001 \003(\0132\030.s" +
+      "essionlog.AdCLKOldInfoB4\n\037com.autohome.a" +
+      "drd.algo.protobufB\021AdLogOldOperation"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -2859,6 +5844,18 @@ public final class AdLogOldOperation {
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_sessionlog_AdPVOldInfoList_descriptor,
               new java.lang.String[] { "Pv", });
+          internal_static_sessionlog_AdCLKOldInfo_descriptor =
+            getDescriptor().getMessageTypes().get(2);
+          internal_static_sessionlog_AdCLKOldInfo_fieldAccessorTable = new
+            com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+              internal_static_sessionlog_AdCLKOldInfo_descriptor,
+              new java.lang.String[] { "Creativeid", "Adtype", "Pageid", "Psid", "Clkip", "Regionid", "Clktime", "Frame", "Referer", "Pvid", "Cookie", "Freqid", });
+          internal_static_sessionlog_AdCLKOldInfoList_descriptor =
+            getDescriptor().getMessageTypes().get(3);
+          internal_static_sessionlog_AdCLKOldInfoList_fieldAccessorTable = new
+            com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+              internal_static_sessionlog_AdCLKOldInfoList_descriptor,
+              new java.lang.String[] { "Clk", });
           return null;
         }
       };

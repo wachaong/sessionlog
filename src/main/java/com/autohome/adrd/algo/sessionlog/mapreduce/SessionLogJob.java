@@ -344,7 +344,7 @@ public class SessionLogJob implements Tool {
 	}
 
 	private int submitAndMonitorJob() throws IOException {
-		RCFileOutputFormat.setColumnNumber(config_,3);
+		RCFileOutputFormat.setColumnNumber(config_,config_.size());
 		Job job = new Job(config_);
 		job.setJarByClass(this.getClass());
 		//ArrayList <String> schema=ConfigLoader.schema;

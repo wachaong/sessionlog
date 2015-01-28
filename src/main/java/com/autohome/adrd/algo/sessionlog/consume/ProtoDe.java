@@ -1,7 +1,5 @@
 package com.autohome.adrd.algo.sessionlog.consume;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,11 +14,9 @@ import org.apache.hadoop.hive.serde2.SerDeException;
 import org.apache.hadoop.hive.serde2.SerDeStats;
 import org.apache.hadoop.hive.serde2.columnar.BytesRefArrayWritable;
 import org.apache.hadoop.hive.serde2.columnar.BytesRefWritable;
-import org.apache.hadoop.hive.serde2.columnar.ColumnarSerDe;
 import org.apache.hadoop.hive.serde2.objectinspector.ListObjectInspector;
 import org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector;
 import org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorFactory;
-import org.apache.hadoop.hive.serde2.objectinspector.ReflectionStructObjectInspector;
 import org.apache.hadoop.hive.serde2.objectinspector.StructField;
 import org.apache.hadoop.hive.serde2.objectinspector.StructObjectInspector;
 import org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector.Category;
@@ -31,10 +27,10 @@ import org.apache.hadoop.hive.serde2.typeinfo.StructTypeInfo;
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfo;
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfoFactory;
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfoUtils;
-import org.apache.hadoop.io.BytesWritable;
 import org.apache.hadoop.io.Writable;
 
 import com.autohome.adrd.algo.protobuf.AdLogOldOperation;
+import com.autohome.adrd.algo.protobuf.PvlogOperation;
 import com.google.protobuf.Message;
 
 import org.apache.commons.lang.StringUtils;
@@ -49,7 +45,7 @@ public class ProtoDe extends AbstractDeserializer {
 	private StructTypeInfo rowTypeInfo;
 	private ObjectInspector rowOI;
 	private List<String> colNames;
-	private List<Object> row = new ArrayList<Object>(5);
+	private List<Object> row = new ArrayList<Object>();
 	private List<TypeInfo> colTypes;
 	private int index;
 	Map<Class<?>, Map<String, Method>> cached = new HashMap<Class<?>, Map<String, Method>>();
@@ -103,28 +99,32 @@ public class ProtoDe extends AbstractDeserializer {
 		for (String str : colNames) {
 			data = value.get(colnum);
 
-			if (str.equalsIgnoreCase("adoldpv")) {
-				try {
-					AdLogOldOperation.AdPVOldInfoList adpv_lst = AdLogOldOperation.AdPVOldInfoList.parseFrom(data.getBytesCopy());
-					index = colnum;
-					ObjectInspector rowoi = createObjectInspectorWorker(colTypes.get(colnum));
-					matchProtoToRowField(adpv_lst, row, rowoi, "PvList");
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			} else if (str.equalsIgnoreCase("userid")) {
-				try {
+			try{
+				if (str.equalsIgnoreCase("adoldpv")) {
+						AdLogOldOperation.AdPVOldInfoList adpv_lst = AdLogOldOperation.AdPVOldInfoList.parseFrom(data.getBytesCopy());
+						index = colnum;
+						ObjectInspector rowoi = createObjectInspectorWorker(colTypes.get(colnum));
+						matchProtoToRowField(adpv_lst, row, rowoi, "PvList");
+				} else if (str.equalsIgnoreCase("userid")) {
 					String userid = new String(data.getBytesCopy());
 					userid = userid == null ? "" : userid;
-					row.add(0, StringUtils.defaultString(userid));
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+					row.add(colnum, StringUtils.defaultString(userid));
 				}
+				else if(str.equalsIgnoreCase("adoldclk")){
+					AdLogOldOperation.AdCLKOldInfoList adclk_lst = AdLogOldOperation.AdCLKOldInfoList.parseFrom(data.getBytesCopy());
+					index = colnum;
+					ObjectInspector rowoi = createObjectInspectorWorker(colTypes.get(colnum));
+					matchProtoToRowField(adclk_lst, row, rowoi, "ClkList");
+				}
+				else if(str.equalsIgnoreCase("pv")){
+					PvlogOperation.AutoPVInfoList pv_lst = PvlogOperation.AutoPVInfoList.parseFrom(data.getBytesCopy());
+					index = colnum;
+					ObjectInspector rowoi = createObjectInspectorWorker(colTypes.get(colnum));
+					matchProtoToRowField(pv_lst, row, rowoi, "PvlogList");
+				}
+			}catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 			colnum++;
 		}
@@ -188,8 +188,6 @@ public class ProtoDe extends AbstractDeserializer {
 			if (subOi.getCategory() == Category.PRIMITIVE) {
 				row.add(listObject);
 			} else if (subOi.getCategory() == Category.STRUCT) {
-				@SuppressWarnings("unchecked")
-				// matchProtoToRow()
 				List<Message> x = (List<Message>) listObject;
 				StructObjectInspector soi = (StructObjectInspector) subOi;
 				List<? extends StructField> substructs = soi.getAllStructFieldRefs();

@@ -11,7 +11,9 @@ import org.apache.hadoop.hive.serde2.columnar.BytesRefArrayWritable;
 import org.apache.hadoop.hive.serde2.columnar.BytesRefWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.mapreduce.Mapper;
+
 import com.autohome.adrd.algo.protobuf.AdLogOldOperation;
+import com.autohome.adrd.algo.protobuf.PvlogOperation;
 import com.autohome.adrd.algo.sessionlog.config.ConfigLoader;
 import com.autohome.adrd.algo.sessionlog.config.PathConfig;
 import com.autohome.adrd.algo.sessionlog.config.SessionLogConfig;
@@ -72,6 +74,12 @@ public class RCFileBaseMapper<KEYOUT, VALUEOUT> extends
 			} else if (cg.equalsIgnoreCase("adoldpv")) {
 				AdLogOldOperation.AdPVOldInfoList adpv_lst = AdLogOldOperation.AdPVOldInfoList.parseFrom(input);
 				list.add(cg, adpv_lst.getPvList());
+			} else if (cg.equalsIgnoreCase("adoldclk")) {
+				AdLogOldOperation.AdCLKOldInfoList adpv_lst = AdLogOldOperation.AdCLKOldInfoList.parseFrom(input);
+				list.add(cg, adpv_lst.getClkList());
+			} else if (cg.equalsIgnoreCase("pv")) {
+				PvlogOperation.AutoPVInfoList pv_lst = PvlogOperation.AutoPVInfoList.parseFrom(input);
+				list.add(cg, pv_lst.getPvlogList());
 			} else if (cg.equalsIgnoreCase("filter")) {
 				String filter = new String(data.getBytesCopy());
 				list.add(cg, filter);

@@ -1,14 +1,10 @@
 package com.autohome.adrd.algo.sessionlog.mapreduce;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
@@ -85,7 +81,6 @@ public class SessionLogReducer extends Reducer<Text, BytesWritable, NullWritable
 			PriorityQueue queue = queueIt.next();
 			queue.clear();
 		}
-		System.out.println("schema size " + schema.size());
 		for(BytesWritable bw : values)	//get type from mapper
 		{
 			BytesWritable value = new BytesWritable();
@@ -99,8 +94,7 @@ public class SessionLogReducer extends Reducer<Text, BytesWritable, NullWritable
 			
 			//单种行为>10000次，认为是异常数据，过滤之，广告数据暂时全部保留，在反作弊模块处理
 			if((queue.size() > 100000 ) 
-					&& ( !strOp.equals("adclick_new") && (!strOp.equals("addisplay_new")))
-					&& ( !strOp.equals("adclick") && (!strOp.equals("addisplay")))
+					&& ( !strOp.equals("adoldpv") && (!strOp.equals("addisplay_new")))
 					)
 			{
 				if_filter = true;
