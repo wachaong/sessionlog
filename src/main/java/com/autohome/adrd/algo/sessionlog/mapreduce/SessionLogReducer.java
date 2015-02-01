@@ -90,11 +90,11 @@ public class SessionLogReducer extends Reducer<Text, BytesWritable, NullWritable
 				continue;
 
 			PriorityQueue queue = queues.get(data[0]);
-			String strOp = schema.get((int)data[0]);
+			String strOp = schema.get((int)data[0]-1);
 			
 			//单种行为>10000次，认为是异常数据，过滤之，广告数据暂时全部保留，在反作弊模块处理
 			if((queue.size() > 100000 ) 
-					&& ( !strOp.equals("adoldpv") && (!strOp.equals("addisplay_new")))
+					&& ( !strOp.equals("adoldpv") && (!strOp.equals("adpv2")))
 					)
 			{
 				if_filter = true;
@@ -115,7 +115,7 @@ public class SessionLogReducer extends Reducer<Text, BytesWritable, NullWritable
 			
 		if(if_filter == true)
 		{
-			int idx = schema.indexOf("filter");
+			int idx = schema.indexOf("filter")+1;
 			String info = Util.join(filter_info, ",").toString();			
 			vals.set(idx, new BytesRefWritable(info.getBytes()));
 		}

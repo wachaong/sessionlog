@@ -9,7 +9,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 
 import com.autohome.adrd.algo.sessionlog.consume.RCFileBaseMapper;
-import com.autohome.adrd.algo.protobuf.AdLogOperation;
 import com.autohome.adrd.algo.protobuf.ApplogOperation;
 import com.autohome.adrd.algo.protobuf.PvlogOperation;
 import com.autohome.adrd.algo.protobuf.TargetingKVOperation;

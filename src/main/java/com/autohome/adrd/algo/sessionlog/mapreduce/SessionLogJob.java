@@ -168,14 +168,7 @@ public class SessionLogJob implements Tool {
 		// set time
 		timeStr = time_;
 		String timeStr_trim = timeStr.replace("/", "");
-		
-        Date d = new SimpleDateFormat("yyyy/MM/dd").parse(time_);
-        Calendar c = Calendar.getInstance();
-        c.setTime(d);  
-        int day = c.get(Calendar.DATE);  
-        c.set(Calendar.DATE, day - 1);  
-        String dayBefore = new SimpleDateFormat("yyyy/MM/dd").format(c.getTime());  
-		
+				
 		// set input path
 		if (Util.isBlank(input_))
 			message = "input path not configed";
@@ -210,10 +203,7 @@ public class SessionLogJob implements Tool {
 							timeStr_using = "dt=" + timeStr_trim;
 						} else if (part.startsWith("/dw/mds/mds_bhv_salelead")) {
 							// adapter time
-							timeStr_using = timeStr_trim;
-						} else if (part.startsWith("/dw/targeting/user_tag_whole")) {
-							// using the day before
-							timeStr_using = dayBefore;					
+							timeStr_using = timeStr_trim;			
 						} else {
 							timeStr_using = timeStr;
 						}

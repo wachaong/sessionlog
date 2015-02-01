@@ -13,6 +13,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import com.autohome.adrd.algo.protobuf.AdLogOldOperation;
+import com.autohome.adrd.algo.protobuf.AdLogOperation;
 import com.autohome.adrd.algo.protobuf.PvlogOperation;
 import com.autohome.adrd.algo.sessionlog.config.ConfigLoader;
 import com.autohome.adrd.algo.sessionlog.config.PathConfig;
@@ -76,6 +77,12 @@ public class RCFileBaseMapper<KEYOUT, VALUEOUT> extends
 				list.add(cg, adpv_lst.getPvList());
 			} else if (cg.equalsIgnoreCase("adoldclk")) {
 				AdLogOldOperation.AdCLKOldInfoList adpv_lst = AdLogOldOperation.AdCLKOldInfoList.parseFrom(input);
+				list.add(cg, adpv_lst.getClkList());
+			} else if (cg.equalsIgnoreCase("adpv")) {
+				AdLogOperation.AdPVInfoList adpv_lst = AdLogOperation.AdPVInfoList.parseFrom(input);
+				list.add(cg, adpv_lst.getPvList());
+			} else if (cg.equalsIgnoreCase("adclk")) {
+				AdLogOperation.AdCLKInfoList adpv_lst = AdLogOperation.AdCLKInfoList.parseFrom(input);
 				list.add(cg, adpv_lst.getClkList());
 			} else if (cg.equalsIgnoreCase("pv")) {
 				PvlogOperation.AutoPVInfoList pv_lst = PvlogOperation.AutoPVInfoList.parseFrom(input);

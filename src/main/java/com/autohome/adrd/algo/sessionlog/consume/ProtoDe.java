@@ -30,6 +30,7 @@ import org.apache.hadoop.hive.serde2.typeinfo.TypeInfoUtils;
 import org.apache.hadoop.io.Writable;
 
 import com.autohome.adrd.algo.protobuf.AdLogOldOperation;
+import com.autohome.adrd.algo.protobuf.AdLogOperation;
 import com.autohome.adrd.algo.protobuf.PvlogOperation;
 import com.google.protobuf.Message;
 
@@ -110,11 +111,28 @@ public class ProtoDe extends AbstractDeserializer {
 					userid = userid == null ? "" : userid;
 					row.add(colnum, StringUtils.defaultString(userid));
 				}
+				else if (str.equalsIgnoreCase("filter")) {
+					String filter = new String(data.getBytesCopy());
+					filter = filter == null ? "" : filter;
+					row.add(colnum, StringUtils.defaultString(filter));
+				}
 				else if(str.equalsIgnoreCase("adoldclk")){
 					AdLogOldOperation.AdCLKOldInfoList adclk_lst = AdLogOldOperation.AdCLKOldInfoList.parseFrom(data.getBytesCopy());
 					index = colnum;
 					ObjectInspector rowoi = createObjectInspectorWorker(colTypes.get(colnum));
 					matchProtoToRowField(adclk_lst, row, rowoi, "ClkList");
+				}
+				else if(str.equalsIgnoreCase("adclk")){
+					AdLogOperation.AdCLKInfoList adclk_lst = AdLogOperation.AdCLKInfoList.parseFrom(data.getBytesCopy());
+					index = colnum;
+					ObjectInspector rowoi = createObjectInspectorWorker(colTypes.get(colnum));
+					matchProtoToRowField(adclk_lst, row, rowoi, "ClkList");
+				}
+				else if(str.equalsIgnoreCase("adpv")){
+					AdLogOperation.AdPVInfoList adpv_lst = AdLogOperation.AdPVInfoList.parseFrom(data.getBytesCopy());
+					index = colnum;
+					ObjectInspector rowoi = createObjectInspectorWorker(colTypes.get(colnum));
+					matchProtoToRowField(adpv_lst, row, rowoi, "PVList");
 				}
 				else if(str.equalsIgnoreCase("pv")){
 					PvlogOperation.AutoPVInfoList pv_lst = PvlogOperation.AutoPVInfoList.parseFrom(data.getBytesCopy());
